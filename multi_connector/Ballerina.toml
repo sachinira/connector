@@ -1,0 +1,13 @@
+[package]
+distribution = "slbeta6"
+org = "sachiniranasinghe"
+name = "connector"
+version = "0.1.0"
+authors = ["Ballerina"]
+export = ["connector", "connector.module1", "connector.module2"]
+keywords = ["Test"]
+icon = "icon.png"
+license = ["Apache-2.0"]
+
+[build-options]
+observabilityIncluded = true
